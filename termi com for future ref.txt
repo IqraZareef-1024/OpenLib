@@ -1,0 +1,10 @@
+npm init -y
+npm i express bcryptjs passport passport-local express-ejs-layouts mongoose connect-flash express-session
+npm i -D nodemon
+
+(In "scripts":{
+	"start":"node app.js",
+	"dev": "nodemon app.js"})
+
+To run the server - npm run dev
+
